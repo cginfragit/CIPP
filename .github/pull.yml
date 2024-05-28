@@ -6,6 +6,18 @@ rules:
   - base: dev
     upstream: KelvinTegelaar:dev
     mergeMethod: none
-  - base: website
-    upstream: KelvinTegelaar:website
-    mergeMethod: merge
+  - base: docs
+    upstream: KelvinTegelaar:docs
+    mergeMethod: none
+  - base: jit-admin
+    upstream: KelvinTegelaar:jit-admin
+    mergeMethod: none
+  - base: docs-maintenance
+    upstream: KelvinTegelaar:docs-maintenance
+    mergeMethod: none
+  - base: KelvinTegelaar-patch-2
+    upstream: KelvinTegelaar:KelvinTegelaar-patch-2
+    mergeMethod: none
+  - base: KelvinTegelaar-patch-1
+    upstream: KelvinTegelaar:KelvinTegelaar-patch-1
+    mergeMethod: none
